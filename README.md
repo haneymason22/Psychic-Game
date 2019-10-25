@@ -1,1 +1,1 @@
-# Psychic-Game
+# Game where the user has to guess the random letter that the computer is thinking of.
