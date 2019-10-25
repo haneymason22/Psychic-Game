@@ -8,8 +8,14 @@ h1 {
     font-weight: bold;
     color: blue;
     background-color: yellow;
-    width: 260px;
+    width: 308px;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#psychic {
+    height: 250px;
+    width: 350px;
 }
 
 p {
@@ -18,4 +24,5 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
