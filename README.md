@@ -1,1 +1,1 @@
-# Game where the user has to guess the random letter that the computer is thinking of.
+# In this game the user has to guess a random letter that the computer is thinking of.
