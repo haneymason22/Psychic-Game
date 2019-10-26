@@ -7,7 +7,7 @@ var guessedLetters = [];
 var winsText = document.getElementById("wins-text");
 var lossesText = document.getElementById("losses-text");
 var guessesLeftText = document.getElementById("guessesleft-text");
-var guessedLettersText = document.getElementById("userguess-text");
+var guessedLettersText = document.getElementById("guessedletters-text");
 
 document.onkeyup = function(event) {
     var userGuess = event.key;
@@ -28,12 +28,12 @@ document.onkeyup = function(event) {
             guessedLetters = [];
         };
 
-
-       
+        
         winsText.textContent = "Wins: " + wins;
         lossesText.textContent = "Losses: " + losses;
         guessesLeftText.textContent = "Guesses Left: " + guessesLeft;
-        guessLettersText = "Your guesses so far: " + guessedLetters;
+        guessedLettersText.textContent = "Your guesses so far: " + guessedLetters;
+      
 
 
     };
